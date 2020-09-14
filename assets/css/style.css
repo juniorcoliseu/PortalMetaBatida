@@ -777,6 +777,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
+#speakers h2 span {
+  color: #f82249;
+}
+
 #speakers-details .details .social {
   margin-bottom: 15px;
 }
