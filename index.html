@@ -37,11 +37,11 @@
 <body>
 
   <script>
-    if(location.protocol !== 'https:') {
-                             location.href = "https://www.metabatidatrader.com.br/";
-                         }
+    console.log(location)
+    if(location.protocol !== 'https:' && location.hostname !== '127.0.0.1')  {
+           location.href = "https://www.metabatidatrader.com.br/";
+      }    
   </script>
-
 
   <!-- ======= Header ======= -->
   <header id="header">
@@ -67,8 +67,7 @@
           <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>
         </ul>
       </nav>-->
-      <!-- #nav-menu-container -->
-    
+      <!-- #nav-menu-container -->    
     </div>
   </header><!-- End Header -->
 
